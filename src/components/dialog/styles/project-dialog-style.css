@@ -1,0 +1,48 @@
+.carousel {
+    background-color: gray;
+}
+
+.title-sub {
+  font-size: 15px;
+}
+
+.title-main {
+  font-size: 25px;
+}
+
+.content-main, .content-sub {
+  font-size: 20px;
+}
+
+.fixed-size-image {
+  height: 400px;
+  object-fit: contain;
+}
+
+
+
+@media (max-width: 850px) {
+    .dialog-container {
+      max-height: 900px; 
+      overflow-y: auto;
+    }
+  
+    .text-content {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    
+    .fixed-size-image {
+      height: 280px;
+      object-fit: contain;
+    }
+  
+    .content-sub-title {
+      font-weight: bold;
+    }
+  
+    .content-main, .content-sub {
+      font-size: 15px;
+    }
+  }
+  
